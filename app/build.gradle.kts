@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.hyphenate.chatroom"
+    namespace = "io.agora.chat.uikit.chatroom"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.hyphenate.chatroom"
+        applicationId = "io.agora.chat.uikit.chatroom"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -75,7 +75,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
 
-    implementation ("io.hyphenate:hyphenate-chat:4.11.0")
+    implementation ("io.agora.rtc:chat-sdk:1.3.1-beta")
 
     implementation(project(mapOf("path" to ":ChatroomUIKit")))
 //    implementation ("io.hyphenate:ease-chatroomui-kit:1.1.0")

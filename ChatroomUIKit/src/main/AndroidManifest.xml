@@ -2,6 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application>
-        <activity android:name="com.hyphenate.chatroom.ui.UISearchActivity" android:exported="false"/>
+        <activity android:name="io.agora.chat.uikit.chatroom.ui.UISearchActivity" android:exported="false"/>
     </application>
 </manifest>
